@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{% trans_default_domain 'front' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <h1>{{ 'homepage.title' | trans }}</h1>
+
+                <h2>{{ 'homepage.subtitle' | trans }}</h2>
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
